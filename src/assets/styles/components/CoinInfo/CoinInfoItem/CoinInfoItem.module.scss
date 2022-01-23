@@ -1,0 +1,34 @@
+.coinInfoItem{
+  width: 100%;
+  min-height: 466px;
+  padding: 60px 42px;
+  border: 1px solid rgba(255, 255, 255, 0.05);
+  box-sizing: border-box;
+  border-radius: 0px 16px 16px 16px;
+
+  .header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    margin-bottom: 85px;
+
+    .title{
+      font-style: normal;
+      font-weight: bold;
+      font-size: 42px;
+      line-height: 50px;
+      color: #FFFFFF;
+      margin-bottom: 0;
+    }
+
+    .logoBlock{
+      display: flex;
+      width: 100%;
+      max-width: 376px;
+      justify-content: space-between;
+      align-items: center;
+
+    }
+  }
+}
