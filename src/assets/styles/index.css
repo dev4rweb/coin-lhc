@@ -8835,6 +8835,50 @@ p.content {
 .react-multi-carousel-list.carousel-container {
   height: 300px; }
 
+.game-card {
+  background: linear-gradient(300deg, #4C18A5, #050373, #31DEE9 140%);
+  -webkit-border-radius: 24px;
+  -moz-border-radius: 24px;
+  border-radius: 24px;
+  width: 700px;
+  min-height: 400px;
+  display: flex; }
+  @media screen and (max-width: 768px) {
+    .game-card {
+      flex-direction: column;
+      width: 100%; } }
+  .game-card .game-side {
+    width: 349px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    -webkit-transition: all .3s;
+    -moz-transition: all .3s;
+    -ms-transition: all .3s;
+    -o-transition: all .3s;
+    transition: all .3s;
+    margin-bottom: 1rem; }
+    .game-card .game-side:hover {
+      -webkit-transform: scale(1.1, 1.1);
+      -moz-transform: scale(1.1, 1.1);
+      -ms-transform: scale(1.1, 1.1);
+      -o-transform: scale(1.1, 1.1);
+      transform: scale(1.1, 1.1); }
+    .game-card .game-side span {
+      font-style: normal;
+      font-weight: bold;
+      font-size: 30px;
+      line-height: 45px;
+      width: 200px; }
+  .game-card .divider {
+    background-color: #020405;
+    width: 2px;
+    height: 400px; }
+    @media screen and (max-width: 768px) {
+      .game-card .divider {
+        display: none; } }
+
 .topHeader {
   height: 48px;
   background: #020405;

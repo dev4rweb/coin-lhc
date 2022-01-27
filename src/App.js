@@ -5,6 +5,8 @@ import FinSystemBlock from "./components/FinSystemBlock";
 import FinFunctionBlock from "./components/FinFunctionBlock";
 import FeaturesBlock from "./components/FeaturesBlock";
 import MultiCarousel from "./components/MultiCarousel";
+import PointsBlock from "./components/PointsBlock";
+import AdvancedBlock from "./components/AdvancedBlock";
 
 function App() {
     return (
@@ -20,7 +22,10 @@ function App() {
                 <MultiCarousel />
             </section>
             <section className="points">
-                <h2>points</h2>
+                <PointsBlock />
+            </section>
+            <section>
+                <AdvancedBlock/>
             </section>
         </>
     );
