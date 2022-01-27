@@ -8696,6 +8696,22 @@ body {
   background-size: cover;
   min-height: 1900px; }
 
+h5, .h5 {
+  font-style: normal;
+  font-weight: 800;
+  font-size: 30px;
+  line-height: 40px;
+  letter-spacing: 0.02em;
+  text-transform: uppercase;
+  color: #FFFFFF; }
+
+h6, .h6 {
+  font-style: normal;
+  font-weight: bold;
+  font-size: 30px;
+  line-height: 24px;
+  color: #FFFFFF; }
+
 .nav-tabs {
   border-bottom: 1px solid rgba(255, 255, 255, 0.05); }
   .nav-tabs .nav-link {
@@ -8736,6 +8752,11 @@ body {
     background-color: #4C18A5;
     border-color: #31DEE9; }
 
+.big-purple-btn {
+  width: 180px;
+  border-radius: 0px 25px 25px 0px;
+  box-shadow: 0px 0px 30px rgba(128, 76, 217, 0.2); }
+
 .navLinkBlue {
   font-style: normal;
   font-weight: 450;
@@ -8755,6 +8776,64 @@ body {
     -ms-transform: scale(1.1, 1.1);
     -o-transform: scale(1.1, 1.1);
     transform: scale(1.1, 1.1); }
+
+.block-title {
+  font-style: normal;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 12px;
+  letter-spacing: 0.02em;
+  text-transform: uppercase;
+  color: #FFFFFF; }
+
+h2.title, .title.h2 {
+  font-style: normal;
+  font-weight: bold;
+  font-size: 60px;
+  line-height: 70px;
+  color: #FFFFFF; }
+  h2.title span, .title.h2 span {
+    color: #31DEE9; }
+  @media screen and (max-width: 1200px) {
+    h2.title, .title.h2 {
+      margin-bottom: 2rem; } }
+
+p.content {
+  font-style: normal;
+  font-weight: 450;
+  font-size: 20px;
+  line-height: 36px;
+  color: #818C99; }
+
+.lhc-card {
+  -webkit-border-radius: 25px;
+  -moz-border-radius: 25px;
+  border-radius: 25px;
+  background: linear-gradient(110deg, #4C18A5, #050373, #31DEE9 140%);
+  padding: 25px; }
+  .lhc-card .lhc-name {
+    font-style: italic;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 16px;
+    letter-spacing: 0.02em;
+    text-transform: uppercase;
+    color: #FFFFFF; }
+
+.black-input-form {
+  font-style: normal;
+  font-weight: 800;
+  font-size: 24px;
+  line-height: 36px;
+  letter-spacing: 0.02em;
+  text-transform: uppercase;
+  color: #FFFFFF; }
+
+.points {
+  margin-top: 170px; }
+
+.react-multi-carousel-list.carousel-container {
+  height: 300px; }
 
 .topHeader {
   height: 48px;

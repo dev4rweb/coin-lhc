@@ -3,6 +3,8 @@ import Header from "./components/Header";
 import CoinInfo from "./components/CoinInfo";
 import FinSystemBlock from "./components/FinSystemBlock";
 import FinFunctionBlock from "./components/FinFunctionBlock";
+import FeaturesBlock from "./components/FeaturesBlock";
+import MultiCarousel from "./components/MultiCarousel";
 
 function App() {
     return (
@@ -13,8 +15,12 @@ function App() {
                 <FinSystemBlock/>
                 <FinFunctionBlock/>
             </section>
-            <section>
-
+            <section className="features">
+                <FeaturesBlock />
+                <MultiCarousel />
+            </section>
+            <section className="points">
+                <h2>points</h2>
             </section>
         </>
     );
