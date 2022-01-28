@@ -7,6 +7,9 @@ import FeaturesBlock from "./components/FeaturesBlock";
 import MultiCarousel from "./components/MultiCarousel";
 import PointsBlock from "./components/PointsBlock";
 import AdvancedBlock from "./components/AdvancedBlock";
+import WalletBlock from "./components/WalletBlock";
+import TeamBlock from "./components/TeamBlock";
+import BrandBlock from "./components/BrandBlock";
 
 function App() {
     return (
@@ -26,6 +29,16 @@ function App() {
             </section>
             <section>
                 <AdvancedBlock/>
+            </section>
+            <section>
+                <WalletBlock />
+            </section>
+            <section>
+                <TeamBlock />
+                <BrandBlock />
+            </section>
+            <section>
+
             </section>
         </>
     );

@@ -1,0 +1,34 @@
+.brandsBlock {
+  .brandTitle{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    h2{
+      max-width: 413px;
+    }
+  }
+
+  .brandCard{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+    img {
+      width: 100%;
+      max-width: 120px;
+      margin-bottom: 34px;
+    }
+
+    span{
+      font-style: normal;
+      font-weight: 450;
+      font-size: 20px;
+      line-height: 36px;
+      text-align: center;
+      color: #818C99;
+    }
+  }
+}

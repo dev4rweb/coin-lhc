@@ -32,7 +32,7 @@ const AdvancedBlock = () => {
                     <li>− Website v2</li>
                     <li>− Expanding Team</li>
                     <li>− Game studio/developer partnerships</li>
-                    <li>− − First Tier 1 Listing</li>
+                    <li>− First Tier 1 Listing</li>
                     <li>− Website v2</li>
                     <li>− V3 Metascanner @ Future Blockchain Summit</li>
                     <li>− Expanding Team</li>
