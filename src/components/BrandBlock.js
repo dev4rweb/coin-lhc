@@ -23,7 +23,7 @@ const BrandBlock = () => {
         {id: 5, logo: brandGlu, name: 'Glu'},
     ]
     return (
-        <Container className={s.brandsBlock}>
+        <Container className={`${s.brandsBlock} mb-5`}>
             <div className={`${s.brandTitle} mb-5`}>
                 <h2 className="title">
                     Create <span>future</span> with the best of the best
@@ -38,7 +38,7 @@ const BrandBlock = () => {
                 }
             </div>
 
-            <div className={s.brandTitle}>
+            <div className={`${s.brandTitle} mb-5`}>
                 {
                     brandsRow.map(b =>
                         <div className={s.brandCard} key={b.id}>

@@ -8757,6 +8757,12 @@ h6, .h6 {
   border-radius: 0px 25px 25px 0px;
   box-shadow: 0px 0px 30px rgba(128, 76, 217, 0.2); }
 
+.btn-light {
+  height: 56px;
+  box-shadow: 0px 0px 30px rgba(128, 76, 217, 0.2);
+  border-radius: 8px;
+  color: #4C18A5; }
+
 .navLinkBlue {
   font-style: normal;
   font-weight: 450;

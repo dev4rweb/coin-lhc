@@ -5,12 +5,6 @@ import teamOne from '../assets/img/team-one.png'
 import teamTwo from '../assets/img/team-two.png'
 import teamThree from '../assets/img/team-three.png'
 import teamFour from '../assets/img/team-four.png'
-import brandGlu from '../assets/img/brand-glu.svg'
-import brandM from '../assets/img/brand-m.svg'
-import brandKiwi from '../assets/img/brand-kiwi.svg'
-import brandHuawei from '../assets/img/brand-huawei.svg'
-import brandSup from '../assets/img/brand-sup.svg'
-import brandBabel from '../assets/img/brand-babel.svg'
 
 const TeamBlock = () => {
     const teams = [

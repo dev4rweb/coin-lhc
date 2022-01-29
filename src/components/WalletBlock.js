@@ -27,10 +27,10 @@ const WalletBlock = () => {
                                 <span>
                                     Download for:
                                 </span>
-                                <img src={icWin} alt="icon"/>
-                                <img src={icMac} alt="icon"/>
-                                <img src={icApple} alt="icon"/>
-                                <img src={icAndroid} alt="icon"/>
+                                <img className={s.icon} src={icWin} alt="icon"/>
+                                <img className={s.icon} src={icMac} alt="icon"/>
+                                <img className={s.icon} src={icApple} alt="icon"/>
+                                <img className={s.icon} src={icAndroid} alt="icon"/>
                             </div>
                         </div>
                     </div>

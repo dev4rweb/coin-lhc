@@ -10,6 +10,8 @@ import AdvancedBlock from "./components/AdvancedBlock";
 import WalletBlock from "./components/WalletBlock";
 import TeamBlock from "./components/TeamBlock";
 import BrandBlock from "./components/BrandBlock";
+import PartnerShipBlock from "./components/PartnerShipBlock";
+import Footer from "./components/Footer";
 
 function App() {
     return (
@@ -38,8 +40,9 @@ function App() {
                 <BrandBlock />
             </section>
             <section>
-
+                <PartnerShipBlock />
             </section>
+            <Footer />
         </>
     );
 }
