@@ -4,14 +4,16 @@
   margin-top: 150px;
   margin-bottom: 150px;
   @media screen and (max-width: 1400px){
-    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
   }
 
   .leftSide {
     width: 100%;
     max-width: 500px;
     @media screen and (max-width: 1400px){
-      margin-bottom: 1rem;
+      margin-bottom: 2rem;
     }
   }
 

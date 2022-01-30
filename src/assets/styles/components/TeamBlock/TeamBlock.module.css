@@ -9,6 +9,9 @@
     width: 100%;
     justify-content: space-between;
     align-items: center; }
+    @media screen and (max-width: 998px) {
+      .teamBlock .teamWrapper {
+        flex-direction: column; } }
   .teamBlock .teamCard {
     display: flex;
     flex-direction: column;
@@ -19,6 +22,9 @@
     -ms-transition: all .3s;
     -o-transition: all .3s;
     transition: all .3s; }
+    @media screen and (max-width: 998px) {
+      .teamBlock .teamCard {
+        margin-bottom: 2rem; } }
     .teamBlock .teamCard:hover {
       -webkit-transform: scale(1.1, 1.1);
       -moz-transform: scale(1.1, 1.1);

@@ -6,7 +6,7 @@
   @media screen and (max-width: 1400px) {
     .bottomHeader {
       height: auto;
-      flex-wrap: wrap; } }
+      flex-direction: column; } }
   .bottomHeader .leftMenu {
     width: 100%;
     max-width: 471px;
@@ -34,6 +34,9 @@
       -o-transition: all .2s;
       transition: all .2s;
       text-decoration: none; }
+      @media screen and (max-width: 480px) {
+        .bottomHeader .leftMenu .leftMenuItem {
+          margin-bottom: 1rem; } }
       .bottomHeader .leftMenu .leftMenuItem:hover {
         cursor: pointer;
         color: #31DEE9;
@@ -63,6 +66,9 @@
       -ms-transition: all .2s;
       -o-transition: all .2s;
       transition: all .2s; }
+      @media screen and (max-width: 480px) {
+        .bottomHeader .rightMenu .rightMenuItem {
+          margin-bottom: 1rem; } }
       .bottomHeader .rightMenu .rightMenuItem:hover {
         cursor: pointer;
         color: #31DEE9;

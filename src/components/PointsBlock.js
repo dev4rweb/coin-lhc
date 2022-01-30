@@ -29,7 +29,7 @@ const PointsBlock = () => {
                 </div>
             </div>
             <div className={s.rightSide}>
-                <span className="block-title">Features</span>
+                <span className="block-title">Main Feature Points</span>
                 <h2 className="title mt-3 mb-4">
                     Multi-Faceted Blockchain Based <span>Ecosystem</span>
                 </h2>

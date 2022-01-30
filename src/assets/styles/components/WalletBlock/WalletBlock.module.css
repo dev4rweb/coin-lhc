@@ -31,6 +31,9 @@
       .walletBlock .macbook {
         max-width: 700px;
         bottom: 400px; } }
+    @media screen and (max-width: 450px) {
+      .walletBlock .macbook {
+        bottom: 680px; } }
   .walletBlock .wrapper {
     display: flex;
     justify-content: flex-end; }
@@ -40,6 +43,9 @@
       display: flex;
       justify-content: center;
       align-items: center; }
+      @media screen and (max-width: 480px) {
+        .walletBlock .wrapper .rightSide .content .iconWrapper {
+          flex-wrap: wrap; } }
       .walletBlock .wrapper .rightSide .content .icon {
         -webkit-transition: all .3s;
         -moz-transition: all .3s;

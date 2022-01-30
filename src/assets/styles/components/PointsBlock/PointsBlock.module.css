@@ -3,7 +3,8 @@
   justify-content: space-between; }
   @media screen and (max-width: 1400px) {
     .pointsBlock {
-      flex-wrap: wrap; } }
+      flex-direction: column;
+      align-items: center; } }
   .pointsBlock .leftSide {
     max-width: 705px;
     margin-bottom: 2rem; }

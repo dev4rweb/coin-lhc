@@ -17,7 +17,7 @@ const PartnerShipBlock = () => {
                 <Button
                     variant="light"
                     size="lg"
-                    style={{width: '160px', marginBottom: '-30px'}}
+                    style={{width: '160px'}}
                 >
                     Contact Us
                 </Button>

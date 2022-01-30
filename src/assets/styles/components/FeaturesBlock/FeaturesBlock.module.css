@@ -4,7 +4,8 @@
   align-items: flex-end; }
   @media screen and (max-width: 1200px) {
     .featuresBlock {
-      flex-wrap: wrap; } }
+      flex-direction: column;
+      align-items: center; } }
   .featuresBlock .leftSide {
     max-width: 527px;
     margin-bottom: 2rem; }

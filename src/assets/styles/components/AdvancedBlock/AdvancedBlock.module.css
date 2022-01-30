@@ -5,13 +5,15 @@
   margin-bottom: 150px; }
   @media screen and (max-width: 1400px) {
     .advancedBlock {
-      flex-wrap: wrap; } }
+      flex-direction: column;
+      justify-content: center;
+      align-items: center; } }
   .advancedBlock .leftSide {
     width: 100%;
     max-width: 500px; }
     @media screen and (max-width: 1400px) {
       .advancedBlock .leftSide {
-        margin-bottom: 1rem; } }
+        margin-bottom: 2rem; } }
   .advancedBlock .rightSide {
     width: 100%;
     max-width: 680px;

@@ -23,7 +23,7 @@ const WalletBlock = () => {
                                 We provides you with the tools & resources so you can be in contrl of your funds at all
                                 times.
                             </p>
-                            <div className="d-flex justify-content-between align-items-center">
+                            <div className={`d-flex justify-content-between align-items-center ${s.iconWrapper}`}>
                                 <span>
                                     Download for:
                                 </span>

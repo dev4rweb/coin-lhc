@@ -10,6 +10,11 @@
     width: 100%;
     justify-content: space-between;
     align-items: center;
+
+    @media screen and (max-width: 998px){
+      flex-direction: column;
+    }
+
   }
 
   .teamCard {
@@ -22,6 +27,9 @@
     -ms-transition: all .3s;
     -o-transition: all .3s;
     transition: all .3s;
+    @media screen and (max-width: 998px){
+      margin-bottom: 2rem;
+    }
 
     &:hover{
       -webkit-transform: scale(1.1, 1.1);

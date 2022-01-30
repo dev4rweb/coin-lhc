@@ -1,12 +1,30 @@
-import React from 'react';
+import React, {useRef, useState} from 'react';
 import s from '../assets/styles/components/CoinInfo/CoinInfoItem/CoinInfoItem.module.scss'
 import logo from '../assets/img/logo.png'
-import {Button} from "react-bootstrap";
+import {Button, Overlay, Popover} from "react-bootstrap";
 import icCheckBox from '../assets/img/ic-checkbox.png'
 import icClose from '../assets/img/ic-close-circle.png'
 import icTick from '../assets/img/ic-tick-circle.png'
 
 const CoinInfoItem = () => {
+    const [val, setVal] = useState('0xD40bEDb44C081D2935eebA6eF5a3c8A31A1bBE13')
+    const [show, setShow] = useState(false);
+    const [target, setTarget] = useState(null);
+    const ref = useRef(null);
+
+    const copyToClipBoard = e => {
+        navigator.clipboard.writeText(val)
+            .then(res => {
+                // console.log('res ', res)
+                setShow(true);
+                setTarget(e.target);
+                setTimeout(() => {
+                    setShow(false);
+                }, 1500);
+            });
+        console.log('copyToClipBoard')
+    };
+
     return (
         <div className={s.coinInfoItem}>
             <div className={s.header}>
@@ -31,9 +49,28 @@ const CoinInfoItem = () => {
                     <span className={s.label}>
                         Smart contract address
                     </span>
-                    <div className={s.content}>
-                        <p>0xD40bEDb44C081D2935eebA6eF5a3c8A31A1bBE13</p>
-                        <img src={icCheckBox} alt="icon" className="ms-2"/>
+                    <div ref={ref} className={s.content}>
+                        <p>{val}</p>
+                        <img
+                            src={icCheckBox}
+                            alt="icon"
+                            onClick={copyToClipBoard}
+                            className={`ms-2 ${s.copyToClipboard}`}
+                        />
+                        <Overlay
+                            show={show}
+                            target={target}
+                            placement="top-start"
+                            container={ref}
+                            containerPadding={20}
+                        >
+                            <Popover id="popover-contained">
+                                {/*<Popover.Header as="h3">Popover bottom</Popover.Header>*/}
+                                <Popover.Body>
+                                    <strong>Copied!</strong>
+                                </Popover.Body>
+                            </Popover>
+                        </Overlay>
                     </div>
                 </div>
 
@@ -80,11 +117,11 @@ const CoinInfoItem = () => {
                         Smart contract address
                     </span>
                     <div className={`${s.content} ${s.features}`}>
-                        <img src={icTick} alt="icon" className="me-2"/>
+                        <img src={icTick} alt="icon" className="me-3"/>
                         <p className="me-4">Staking</p>
-                        <img src={icTick} alt="icon" className="me-2"/>
+                        <img src={icTick} alt="icon" className="me-3"/>
                         <p className="me-4">NFT Games</p>
-                        <img src={icClose} alt="icon" className="me-2"/>
+                        <img src={icClose} alt="icon" className="me-4"/>
                         <p>Masternode</p>
                     </div>
                 </div>

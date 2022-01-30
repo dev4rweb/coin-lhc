@@ -5,7 +5,7 @@
   align-items: center;
   @media screen and (max-width: 1400px){
     height: auto;
-    flex-wrap: wrap;
+    flex-direction: column;
   }
 
   .leftMenu{
@@ -36,6 +36,9 @@
       -o-transition: all .2s;
       transition: all .2s;
       text-decoration: none;
+      @media screen and (max-width: 480px){
+        margin-bottom: 1rem;
+      }
 
       &:hover {
         cursor: pointer;
@@ -60,6 +63,7 @@
       flex-wrap: wrap;
     }
 
+
     .rightMenuItem{
       font-style: normal;
       font-weight: 450;
@@ -72,6 +76,10 @@
       -ms-transition: all .2s;
       -o-transition: all .2s;
       transition: all .2s;
+
+      @media screen and (max-width: 480px){
+        margin-bottom: 1rem;
+      }
 
       &:hover {
         cursor: pointer;

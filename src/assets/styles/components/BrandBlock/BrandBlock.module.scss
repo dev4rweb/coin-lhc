@@ -5,6 +5,10 @@
     justify-content: space-between;
     align-items: center;
 
+    @media screen and (max-width: 998px){
+      flex-wrap: wrap;
+    }
+
     h2{
       max-width: 413px;
     }

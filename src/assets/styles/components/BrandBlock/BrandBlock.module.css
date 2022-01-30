@@ -3,6 +3,9 @@
   display: flex;
   justify-content: space-between;
   align-items: center; }
+  @media screen and (max-width: 998px) {
+    .brandsBlock .brandTitle {
+      flex-wrap: wrap; } }
   .brandsBlock .brandTitle h2 {
     max-width: 413px; }
 .brandsBlock .brandCard {

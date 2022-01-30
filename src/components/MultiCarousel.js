@@ -54,7 +54,7 @@ const MultiCarousel = () => {
                         <div
                             key={card.id}
                             className="d-flex justify-content-between align-items-center"
-                            style={{width: '100%', maxWidth: '575px'}}
+                            style={{width: '100%', maxWidth: '575px', margin: '0 auto'}}
                         >
                             <img
                                 style={{marginRight: '42px'}}

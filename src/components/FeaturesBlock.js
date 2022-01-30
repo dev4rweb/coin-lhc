@@ -37,6 +37,7 @@ const FeaturesBlock = () => {
                         type="text"
                         size="lg"
                         className="bg-black text-white border-0 black-input-form"
+                        style={{borderRadius: '25px 0 0 25px', background: 'rgba(255, 255, 255, 0.05)'}}
                         value={'70 LHC'}
                         disabled
                     />

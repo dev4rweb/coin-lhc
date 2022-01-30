@@ -78,6 +78,22 @@
         @media screen and (max-width: 480px) {
           .coinInfoItem .rowItem .content p {
             font-size: 14px; } }
+        @media screen and (max-width: 410px) {
+          .coinInfoItem .rowItem .content p {
+            font-size: 10px; } }
+      .coinInfoItem .rowItem .content .copyToClipboard {
+        -webkit-transition: all .2s;
+        -moz-transition: all .2s;
+        -ms-transition: all .2s;
+        -o-transition: all .2s;
+        transition: all .2s; }
+        .coinInfoItem .rowItem .content .copyToClipboard:hover {
+          cursor: pointer;
+          -webkit-transform: scale(1.2, 1.2);
+          -moz-transform: scale(1.2, 1.2);
+          -ms-transform: scale(1.2, 1.2);
+          -o-transform: scale(1.2, 1.2);
+          transform: scale(1.2, 1.2); }
   .coinInfoItem .divider {
     width: 1px;
     height: 60px;
