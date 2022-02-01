@@ -14,7 +14,7 @@ const PointsBlock = () => {
                         <span
                             className="mt-3 text-center"
                         >
-                            Main Feature Points
+                            DeFi apps
                         </span>
                     </div>
                     <div className="divider"/>

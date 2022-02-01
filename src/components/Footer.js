@@ -14,7 +14,7 @@ const Footer = () => {
             <Container>
                 <div className={s.topFooter}>
                     <div className={s.menuLeft}>
-                        <a href="#">Home</a>
+                        <a href="https://lightcoin.io">Home</a>
                         <a href="#">Bridge</a>
                         <a href="#">Swap</a>
                         <a href="#">NFT Market</a>
@@ -22,8 +22,8 @@ const Footer = () => {
                     </div>
                     <div className={s.menuRight}>
                         <a href="#">About</a>
-                        <a href="#">Exchanges</a>
-                        <a href="#">Whitepaper</a>
+                        <a href="https://linktr.ee/lightcoin" target="_blank">Exchanges</a>
+                        <a href="https://lightcoin.io/Whitepaper1.1.pdf" target="_blank">Whitepaper</a>
                         <a href="#">Team</a>
                         <a href="#">Roadmap</a>
                         <a href="#">How to buy</a>
@@ -35,14 +35,13 @@ const Footer = () => {
                     <img className={s.logo} src={logo} alt="logo"/>
 
                     <div className={s.social}>
-                        <a href="#"><img src={icTwitter} alt="social"/></a>
-                        <a href="#"><img src={icFb} alt="social"/></a>
-                        <a href="#"><img src={icTg} alt="social"/></a>
-                        <a href="#"><img src={icInsta} alt="social"/></a>
-                        <a href="#"><img src={icYoutube} alt="social"/></a>
+                        <a href="https://twitter.com/LHC_COIN"><img src={icTwitter} alt="social"/></a>
+                        <a href="https://t.me/LightCoinAnnouncements"><img src={icTg} alt="social"/></a>
+                        <a href="https://www.youtube.com/channel/UCnG9EgXF4M5heyr31SmI0wA"><img src={icYoutube} alt="social"/></a>
+                        <a href="https://discord.gg/aRpZhkwrcc"><img src={icYoutube} alt="social"/></a>
                     </div>
 
-                    <span className={s.copyright}>© 2021 Lightcoin. All Right Reseved</span>
+                    <span className={s.copyright}>© 2022 Lightcoin. All Right Reseved</span>
                 </div>
             </Container>
         </footer>

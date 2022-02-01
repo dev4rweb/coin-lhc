@@ -6,8 +6,12 @@ import icWin from '../assets/img/ic-purple-win.svg'
 import icMac from '../assets/img/ic-purple-mac.svg'
 import icApple from '../assets/img/ic-purple-apple.svg'
 import icAndroid from '../assets/img/ic-purple-android.svg'
+import Popup from '../components/Popup.js'
+import {useState} from 'react'
+
 
 const WalletBlock = () => {
+    const [buttonPopup, setButtonPopup] = useState(false);
     return (
         <div className={s.walletBlock}>
             <img className={s.macbook} src={macbook} alt="macbook"/>
@@ -27,10 +31,13 @@ const WalletBlock = () => {
                                 <span>
                                     Download for:
                                 </span>
-                                <img className={s.icon} src={icWin} alt="icon"/>
-                                <img className={s.icon} src={icMac} alt="icon"/>
-                                <img className={s.icon} src={icApple} alt="icon"/>
-                                <img className={s.icon} src={icAndroid} alt="icon"/>
+                                <a href="https://git.io/JZBq8"><img className={s.icon} src={icWin} alt="icon"/></a>
+                                <a href="https://git.io/JnICM"><img className={s.icon} src={icMac} alt="icon"/></a>
+                                <a href="#"><img className={s.icon} src={icApple} alt="icon" onClick={() => setButtonPopup(true)}/></a>
+                                <a href="#"><img className={s.icon} src={icAndroid} alt="icon" onClick={() => setButtonPopup(true)} /></a>
+                                <Popup trigger={buttonPopup} setTrigger={setButtonPopup}>
+                                    <h3>Soon!</h3>
+                                </Popup>
                             </div>
                         </div>
                     </div>
@@ -38,6 +45,9 @@ const WalletBlock = () => {
             </div>
         </div>
     );
+
+
 };
+
 
 export default WalletBlock;

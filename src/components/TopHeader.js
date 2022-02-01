@@ -8,10 +8,10 @@ const TopHeader = () => {
             <Container className={s.wrapper}>
                 <div className={s.headerCard}>
                     <span className={s.title}>
-                        Total supply:
+                        Max Total supply:
                     </span>
                     <span className={s.content}>
-                        9,766,213,274
+                        214 748 3647
                     </span>
                 </div>
                 <div className={s.divider}/>
@@ -31,17 +31,26 @@ const TopHeader = () => {
                         Circulating supply:
                     </span>
                     <span className={s.content}>
-                        4,695,127,669
+                         47 914 106
                     </span>
                 </div>
                 <div className={s.divider}/>
 
                 <div className={s.headerCard}>
                     <span className={s.title}>
-                        Burned:
+                        Fully Diluted Valuation
                     </span>
                     <span className={s.content}>
-                        233,786,726
+                        $110,618,387
+                    </span>
+                </div>
+                <div className={s.divider}/>
+                <div className={s.headerCard}>
+                    <span className={s.title}>
+                        Current Price:
+                    </span>
+                    <span className={s.content}>
+                        $0.04438
                     </span>
                 </div>
             </Container>

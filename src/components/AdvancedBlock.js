@@ -4,18 +4,18 @@ import {Container} from "react-bootstrap";
 
 const AdvancedBlock = () => {
     const pagination = [
-        {id: 1, name: 'Q1'},
-        {id: 2, name: 'Q2'},
-        {id: 3, name: 'Q3'},
-        {id: 4, name: 'Q4'},
-        {id: 5, name: 'Q5'},
+        {id: 1, name: '2021'},
+        {id: 2, name: 'Q1 2022'},
+        {id: 3, name: 'Q2 2022'},
+        {id: 4, name: 'Q3 2022'},
+        {id: 5, name: '2023'},
     ]
     const cards = [
-        {id: 1, title: 'Q1 2021', description: 'quod, quos ratione velit voluptatum!'},
-        {id: 2, title: 'Q2 2019', description: 'Lorem ipsum dolor sit amet, consectetur'},
-        {id: 3, title: 'Q3 2015', description: 'adipisicing elit. Asperiores cupiditate dignissimos'},
-        {id: 4, title: 'Q4 2023', description: 'ex exercitationem fugit impedit, maxime modi nesciunt'},
-        {id: 5, title: 'Q5 2025', description: 'nostrum odit pariatur placeat quasi quia quo '},
+        {id: 1, title: '2021', description1: '− Whitepaper', description2: '− Establishing a team', description4: '− First website', description5: '− Mainnet Launch', description6: '− Creation LHC contract for ETH Network',description7: '− Creation LHC contract for BSC Network',description8: '− Staking platform on BSC network',description9: '− Crex24 listing',description10: '− masternodes.online listing',status: 'Finished'},
+        {id: 2, title: 'Q1 2022', description1: '− Website v2', description2: '− NFT game development begins', description4: '− NFT staking for ETH network development begins', description5: '− Creation of Whitepaper v2 begins', description6: '− Game studio/developer partnerships',description7: '− Swap platform development begins',description8: '− NFT marketplace development begins',description9: '',description10: '',status: 'In progress'},
+        {id: 3, title: 'Q2 2022', description1: '− More shared masternode listings', description2: '− Staking platfoms listings', description4: '− Whitepaper v2 release', description5: '− Mars House NFT Game release', description6: '− Staking NFT game release',description7: 'Team Expanding',description8: '',description9: '',description10: '',status: 'In progress'},
+        {id: 4, title: 'Q3 2022', description1: '− Airdrops', description2: '− Swap platform release', description4: '− Polygon LHC contract live', description5: '− ', description6: '− LHC tron smart contract creation begins',description7: '− Farm smart contract development begins',description8: '− LHC Shop release',description9: '− Multi-chain payment tool development research begins',description10: '',status: 'In Future'},
+        {id: 5, title: '2023', description1: '− quod, quos ratione velit voluptatum!', description2: '− NFT marketplace release', description4: '− quod, quos ratione velit voluptatum!', description5: '− quod, quos ratione velit voluptatum!', description6: '− quod, quos ratione velit voluptatum!',description7: '− quod, quos ratione velit voluptatum!',description8: '− quod, quos ratione velit voluptatum!',description9: '− quod, quos ratione velit voluptatum!',description10: '− quod, quos ratione velit voluptatum!',status: 'In Future'},
     ]
     const [activePag, setActivePag] = useState(pagination[3])
     const [curCard, setCurCard] = useState(cards[3])
@@ -58,19 +58,19 @@ const AdvancedBlock = () => {
                 <div>
                     <div className={s.titleBlock}>
                         <span className={s.name}>{curCard.title}</span>
-                        <span className={s.status}>In progress</span>
+                        <span className={s.status}>{curCard.status}</span>
                     </div>
                     <ul className={s.descList}>
-                        <li>− {curCard.description}</li>
-                        <li>− First Tier 1 Listing</li>
-                        <li>− Website v2</li>
-                        <li>− Expanding Team</li>
-                        <li>− Game studio/developer partnerships</li>
-                        <li>− First Tier 1 Listing</li>
-                        <li>− Website v2</li>
-                        <li>− V3 Metascanner @ Future Blockchain Summit</li>
-                        <li>− Expanding Team</li>
-                        <li>− Game studio/developer partnerships</li>
+                        <li>{curCard.description1}</li>
+                        <li>{curCard.description2}</li>
+                        <li>{curCard.description3}</li>
+                        <li>{curCard.description4}</li>
+                        <li>{curCard.description5}</li>
+                        <li>{curCard.description6}</li>
+                        <li>{curCard.description7}</li>
+                        <li>{curCard.description8}</li>
+                        <li>{curCard.description9}</li>
+                        <li>{curCard.description10}</li>
                     </ul>
                 </div>
 
