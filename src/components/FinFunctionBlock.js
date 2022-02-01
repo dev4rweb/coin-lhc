@@ -13,15 +13,15 @@ const FinFunctionBlock = () => {
                     The Lightcoin Foundation will develop a use case for the current financial system. Lightcoin, which
                     blockchain, will remain strong several levels like as ERC20, TRC20 and Binance Smart Chain.
                 </p>
-
+                <a href="https://lightcoin.io/Whitepaper1.1.pdf" target="_blank"> 
                 <Button
                     variant="primary"
-                    className="purple-button me-5"
-                >
-                    Whitepaper
+                    className="purple-button me-5">
+                        Whitepaper
                 </Button>
+                </a>
 
-                <a href="#" className="navLinkBlue">Coin Explorer</a>
+                <a href="http://explorer.light-coin.org/" target="_blank" className="navLinkBlue">Coin Explorer</a>
             </div>
         </Container>
     );

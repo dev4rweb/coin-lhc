@@ -8,7 +8,7 @@ import teamFour from '../assets/img/team-four.png'
 
 const TeamBlock = () => {
     const teams = [
-        {id: 1, pict: teamOne, name: 'LordTV', prof: 'Chief Executive Officer'},
+        {id: 1, pict: teamOne, name: 'Lord', prof: 'Chief Executive Officer'},
         {id: 2, pict: teamTwo, name: 'Pir', prof: 'VP of Operations'},
         {id: 3, pict: teamThree, name: 'Jackob', prof: 'Global Head of Products'},
         {id: 4, pict: teamFour, name: 'Skiller', prof: 'Director of Content'},
@@ -16,7 +16,7 @@ const TeamBlock = () => {
 
     return (
         <Container className={s.teamBlock}>
-            <span className="block-title mb-5">Advanced</span>
+            <span className="block-title mb-5">Meet us</span>
             <h2 className="title mt-3 mb-5">
                 Our <span>Team</span>
 

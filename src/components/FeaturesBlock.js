@@ -10,15 +10,14 @@ const FeaturesBlock = () => {
             className={`${s.featuresBlock} mb-3`}
         >
             <div className={s.leftSide}>
-                <span className="block-title">Features</span>
+                <span className="block-title">Bridge</span>
                 <h2 className="title mt-3 mb-4">
                     <span>Features</span> of Lightcoin Platform
                 </h2>
                 <p className="content mb-5">
-                    It will enable the creation of DeFi apps, NFT, and smart contracts. There will be publicly
-                    accessible tools for easily exchanging currencies between all levels.
+                    Our goal is to create a platform that will allow you to easily exchange LHC between different blockchains 
                 </p>
-                <a href="#" className="navLinkBlue ms-4">More Info</a>
+                <a className="navLinkBlue ms-4">We are working on it</a>
             </div>
             <div className={s.rightSide}>
                 <div className="lhc-card mb-4">
@@ -46,7 +45,7 @@ const FeaturesBlock = () => {
                         size="lg"
                         className="purple-button big-purple-btn"
                     >
-                        Swap
+                        Swap (Soon!)
                     </Button>
                 </InputGroup>
 
@@ -57,7 +56,7 @@ const FeaturesBlock = () => {
                         <img src={dropImg} alt="icon"/>
                     </div>
                     <h5 className="mb-0">
-                        70 LHC
+                        30 LHC
                     </h5>
                 </div>
             </div>

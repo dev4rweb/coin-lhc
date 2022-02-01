@@ -8,10 +8,9 @@ import cardImg from '../assets/img/cardImg.png'
 /*https://www.npmjs.com/package/react-multi-carousel*/
 const MultiCarousel = () => {
     const cards = [
-        {id: 1, title: 'Masternodes', body: 'Get more rewards for hosting and providing layer two services to the LHC network.'},
-        {id: 2, title: 'Cold Staking', body: 'Receive staking rewards while your funds are securely locked in offline cold storage.'},
+        {id: 1, title: 'Masternodes', body: 'Get more rewards for hosting and providing a security layer to the LHC network.'},
+        {id: 2, title: 'Staking', body: 'Receive staking rewards while your funds are securely locked.'},
         {id: 3, title: 'Economics', body: 'Long term balance between inflation and deflation; engineered to be scalable.'},
-        {id: 4, title: 'Masternodes', body: 'Get more rewards for hosting and providing layer two services to the LHC network.'},
         {id: 5, title: 'Cold Staking', body: 'Receive staking rewards while your funds are securely locked in offline cold storage.'},
         {id: 6, title: 'Economics', body: 'Long term balance between inflation and deflation; engineered to be scalable.'},
     ]

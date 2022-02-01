@@ -7,7 +7,7 @@ import icClose from '../assets/img/ic-close-circle.png'
 import icTick from '../assets/img/ic-tick-circle.png'
 
 const CoinInfoItem = () => {
-    const [val, setVal] = useState('0xD40bEDb44C081D2935eebA6eF5a3c8A31A1bBE13')
+    const [val, setVal] = useState('0x320d31183100280CcdF69366CD56180Ea442A3E8')
     const [show, setShow] = useState(false);
     const [target, setTarget] = useState(null);
     const ref = useRef(null);
@@ -33,12 +33,14 @@ const CoinInfoItem = () => {
                 </h2>
                 <div className={s.logoBlock}>
                     <img src={logo} alt="logo"/>
+                    <a href="https://linktr.ee/lightcoin" target="_blank">
                     <Button
                         variant="primary"
                         className="purple-button"
                     >
                         Buy now
                     </Button>
+                    </a>
                 </div>
             </div>
 
@@ -100,10 +102,10 @@ const CoinInfoItem = () => {
 
                 <div className={s.rowItem}>
                     <span className={s.label}>
-                        Holders
+                        Total Supply:
                     </span>
                     <div className={s.content}>
-                        <p>457,306</p>
+                        <p>109 243</p>
                     </div>
                 </div>
             </div>
@@ -133,9 +135,10 @@ const CoinInfoItem = () => {
                         Links
                     </span>
                     <div className={s.content}>
-                        <a href="#" className="navLinkBlue me-4">Reward Structure</a>
-                        <a href="#" className="navLinkBlue me-4">Development</a>
-                        <a href="#" className="navLinkBlue">What is it Masternode?</a>
+                        <a href="https://pancakeswap.finance/swap?outputCurrency=0x320d31183100280CcdF69366CD56180Ea442A3E8" target="_blank" className="navLinkBlue me-4">Pancakeswap</a>
+                        <a href="https://lightcoin.io/stake" target="_blank" className="navLinkBlue me-4">LHC BSC Staking</a>
+                        <a href="https://www.youtube.com/watch?v=esLo5fQQLCo&t" target="_blank" className="navLinkBlue">LHC Staking Tutorial</a>
+                        <a href="https://bscscan.com/token/0x320d31183100280CcdF69366CD56180Ea442A3E8" target="_blank" className="navLinkBlue">BSC Explorer</a>
                     </div>
                 </div>
             </div>
