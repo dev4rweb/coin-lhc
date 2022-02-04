@@ -14,13 +14,20 @@ const PartnerShipBlock = () => {
                     We are looking to work with people and companies that are serious about the mass adoption of crypto,
                     metaverse explorers, marketing partners.
                 </p>
-                <Button
+                {/*<Button
                     variant="light"
                     size="lg"
                     style={{width: '160px'}}
                 >
                     Contact Us
-                </Button>
+                </Button>*/}
+                <a
+                    style={{width: '160px'}}
+                    className="btn btn-light btn-lg"
+                    href="mailto:admin@lightcoin.io"
+                >
+                    Contact Us
+                </a>
             </Container>
         </div>
     );

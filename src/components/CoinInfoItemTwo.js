@@ -1,14 +1,13 @@
 import React, {useRef, useState} from 'react';
-import s from '../assets/styles/components/CoinInfo/CoinInfoItem/CoinInfoItem.module.scss'
-import logo from '../assets/img/logo.png'
+import s from "../assets/styles/components/CoinInfo/CoinInfoItem/CoinInfoItem.module.scss";
+import logo from "../assets/img/logo.png";
 import {Button, Overlay, Popover} from "react-bootstrap";
-import icCheckBox from '../assets/img/ic-checkbox.png'
-import icClose from '../assets/img/ic-close-circle.png'
-import icTick from '../assets/img/ic-tick-circle.png'
-import {CopyToClipboard} from 'react-copy-to-clipboard';
+import icCheckBox from "../assets/img/ic-checkbox.png";
+import icTick from "../assets/img/ic-tick-circle.png";
+import icClose from "../assets/img/ic-close-circle.png";
 
-const CoinInfoItem = () => {
-    const [val, setVal] = useState('0x320d31183100280CcdF69366CD56180Ea442A3E8')
+const CoinInfoItemTwo = () => {
+    const [val, setVal] = useState('next tabs')
     const [show, setShow] = useState(false);
     const [target, setTarget] = useState(null);
     const ref = useRef(null);
@@ -34,12 +33,12 @@ const CoinInfoItem = () => {
                 <div className={s.logoBlock}>
                     <img src={logo} alt="logo"/>
                     <a href="https://linktr.ee/lightcoin" target="_blank">
-                    <Button
-                        variant="primary"
-                        className="purple-button"
-                    >
-                        Buy now
-                    </Button>
+                        <Button
+                            variant="primary"
+                            className="purple-button"
+                        >
+                            Buy now 1
+                        </Button>
                     </a>
                 </div>
             </div>
@@ -151,4 +150,4 @@ const CoinInfoItem = () => {
     );
 };
 
-export default CoinInfoItem;
+export default CoinInfoItemTwo;

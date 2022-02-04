@@ -57,11 +57,11 @@ linear-gradient(120deg, rgba(5, 3, 115, 0.75) 100%, #4C18A5, #31DEE9);*/
 
 .stages {
   width: 100%;
-  max-width: 350px;
+  max-width: 450px;
   display: flex;
   justify-content: space-between; }
   .stages .stage {
-    width: 60px;
+    width: 100px;
     height: 60px;
     -webkit-border-radius: 50px;
     -moz-border-radius: 50px;

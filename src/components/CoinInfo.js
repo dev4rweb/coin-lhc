@@ -2,6 +2,8 @@ import React from 'react';
 import s from '../assets/styles/components/CoinInfo/CoinInfo.module.scss'
 import {Container, Tab, Tabs} from "react-bootstrap";
 import CoinInfoItem from "./CoinInfoItem";
+import CoinInfoItemTwo from "./CoinInfoItemTwo";
+import CoinInfoItemThree from "./CoinInfoItemThree";
 
 const CoinInfo = () => {
     return (
@@ -11,14 +13,10 @@ const CoinInfo = () => {
                     <CoinInfoItem />
                 </Tab>
                 <Tab eventKey="mainnet" title="Mainnet">
-                    <div>
-                        2
-                    </div>
+                    <CoinInfoItemTwo />
                 </Tab>
                 <Tab eventKey="eth" title="ETH">
-                    <div>
-                        3
-                    </div>
+                    <CoinInfoItemThree />
                 </Tab>
             </Tabs>
         </Container>
